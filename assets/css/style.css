@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1366px;
+  width: 100%;
   height: 100%;
 }
 
@@ -31,7 +31,7 @@ header {
   justify-content: space-around;
   min-height: 75px;
   max-height: 75px;
-  min-width: 100vw;
+  min-width: 100%;
   align-items: center;
   background-color: #fff;
 }
@@ -78,8 +78,10 @@ header nav button:hover {
 }
 
 #conteiner-img-pg-inicial {
-  min-width: 100vw;
-  max-height: 85vh;
+  background: #fff url("../img/img-pg-inicial.jpg") no-repeat center scroll;
+  background-size: 100vw 90vh;
+  width: 100vw;
+  height: 90vh;
 }
 
 #conteiner-img-pg-inicial img {
@@ -93,7 +95,7 @@ main {
   z-index: 2;
   background-color: #fff;
   max-width: 1170px;
-  transform: translateY(400px);
+  transform: translateY(-200px);
   display: flex;
   flex-direction: column;
   justify-content: center;
